@@ -289,7 +289,6 @@ footer {
 	justify-content: space-between;
 	flex-flow: row wrap;
 	border-bottom: 1px solid black;
-	border: 1px solid red;
 }
 
 .services-content {
@@ -297,12 +296,6 @@ footer {
 	background-color: rgba(128, 128, 128, 0.192);
 	width: 400px;
 	margin-bottom: 20px;
-}
-
-.services-bottom {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
 }
 
 ul {
@@ -327,4 +320,13 @@ button {
 button:hover {
 	background: black;
 	color: white;
+}
+
+.services-bottom {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 100px;
+}
+
+.sbc {
 }
