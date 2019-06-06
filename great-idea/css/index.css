@@ -281,18 +281,26 @@ footer {
 
 /* services.html */
 
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
 .services {
 	display: flex;
-	flex-flow: column nowrap;
-	padding: 10px 0;
-	border: 1px solid black;
+	flex-flow: row wrap;
+	padding: 20px 0;
+	margin-top: 30px;
+	border-bottom: 1px solid black;
 }
 
 .services-top {
 }
 .main-services {
-	border-top: 1px solid black;
-	margin: 100px auto;
+	margin: 50px auto;
 	padding: 39px auto;
 	display: flex;
 	flex-flow: row wrap;
@@ -307,7 +315,9 @@ footer {
 }
 
 ul {
-	border: 1px solid black;
+	margin-top: 130px;
+	padding: 0 0;
+	line-height: 30px;
 }
 li {
 	list-style-type: square;
@@ -322,6 +332,7 @@ button {
 	font-size: 17px;
 	border: 1px solid black;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 button:hover {
@@ -336,7 +347,4 @@ button:hover {
 	display: flex;
 	flex-flow: row nowrap;
 	margin-top: 100px;
-}
-
-.sbc {
 }
