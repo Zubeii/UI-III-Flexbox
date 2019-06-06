@@ -281,26 +281,33 @@ footer {
 
 /* services.html */
 
+.services {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 10px 0;
+	border: 1px solid black;
+}
+
+.services-top {
+}
 .main-services {
 	border-top: 1px solid black;
-	margin-top: 76px;
-	padding-top: 39px;
+	margin: 100px auto;
+	padding: 39px auto;
 	display: flex;
-	justify-content: space-between;
 	flex-flow: row wrap;
-	border-bottom: 1px solid black;
 }
 
 .services-content {
 	border: 1px solid black;
 	background-color: rgba(128, 128, 128, 0.192);
-	width: 400px;
-	margin-bottom: 20px;
+	width: 48%;
+	padding: 20px 50px;
+	margin: 10px auto;
 }
 
 ul {
-	display: flex;
-	flex-direction: column;
+	border: 1px solid black;
 }
 li {
 	list-style-type: square;
@@ -323,6 +330,9 @@ button:hover {
 }
 
 .services-bottom {
+	border-top: 2px solid black;
+	margin: 100px auto;
+	padding: 20px;
 	display: flex;
 	flex-flow: row nowrap;
 	margin-top: 100px;
